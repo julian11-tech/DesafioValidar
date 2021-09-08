@@ -14,6 +14,7 @@ public class DesafioValidar {
         
         
         FileInputStream arquivo = new FileInputStream("prog.txt");
+        
         BufferedReader br = new BufferedReader(new InputStreamReader(arquivo));
         FileWriter escreve = new FileWriter("check-prog.txt");
         String linha;
